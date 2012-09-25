@@ -7,8 +7,11 @@ struct rock_event_s
 {
     void            *data;
 
+
     unsigned         type:1;
 
+	unsigned         active:1;
+	unsigned         oneshot:1;
     unsigned         accept:1;
     unsigned         instance:1;
 
